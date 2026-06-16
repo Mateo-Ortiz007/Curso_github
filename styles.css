@@ -1,0 +1,57 @@
+/* styles.css - Estilo tipo Excel para la lista */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f3f6fb;
+  color: #111;
+  margin: 24px;
+}
+
+h1 { color: #1f2937; }
+
+h2 { margin-top: 20px; color: #111827; }
+
+/* Lista con apariencia de hoja de cálculo */
+ol.spreadsheet {
+  width: 600px;
+  max-width: 100%;
+  padding: 0;
+  margin: 12px 0;
+  list-style-position: inside;
+  counter-reset: row;
+}
+
+ol.spreadsheet li {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 12px;
+  align-items: center;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  padding: 8px 12px;
+}
+
+/* Alternar color de filas como en Excel */
+ol.spreadsheet li:nth-child(odd) {
+  background: #fbfdff;
+}
+
+/* Estilo para el marcador de número (número de fila) */
+ol.spreadsheet li::marker {
+  font-weight: 700;
+  color: #0b5cff;
+}
+
+/* Hover para mejor visual */
+ol.spreadsheet li:hover {
+  background: #eef6ff;
+}
+
+/* Hacer que el número quede alineado y con fondo tenue como una celda */
+ol.spreadsheet li > *:first-child {
+  display: inline-block;
+}
+
+@media (max-width: 480px) {
+  ol.spreadsheet { width: 100%; }
+  ol.spreadsheet li { grid-template-columns: 36px 1fr; padding: 8px; }
+}
