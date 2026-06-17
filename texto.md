@@ -100,3 +100,19 @@ Cuando una persona empieza a trabajar en una tarea, el Issue se mueve a esta col
 ✅ Done (Hecho)
 
 Incluye las tareas finalizadas. Una vez que el trabajo ha sido completado, revisado e integrado al proyecto, el Issue se traslada a esta columna y se marca como cerrado.
+
+Paso 1: Creación de la Issue
+
+En esta etapa se registra una nueva Issue dentro del repositorio para documentar una tarea, mejora, corrección de error o requerimiento pendiente. Esto permite organizar el trabajo y mantener un seguimiento claro de las actividades que deben realizarse.
+![alt text](../Curso_github/assets/image.png)
+
+Paso 2: Asociación de la Issue al Proyecto
+Una vez creada la Issue, se agrega al proyecto correspondiente para integrarla dentro del flujo de trabajo. Esto facilita la planificación, priorización y seguimiento del avance de las tareas mediante tableros de gestión.
+![alt text](../Curso_github/assets/image-1.png)
+Paso 3: Desarrollo de la Issue
+Durante esta fase se realiza el trabajo asociado a la tarea definida en la Issue. Se implementan los cambios necesarios, se realizan pruebas y se actualiza el estado conforme avanza el desarrollo.
+![alt text](../Curso_github/assets/image-2.png)
+
+Paso 4: Cierre de la Issue
+Una vez completado y validado el trabajo, la Issue se marca como finalizada. Esto indica que la tarea ha sido resuelta satisfactoriamente y queda registrada como parte del historial del proyecto.
+![alt text](../Curso_github/assets/image-3.png)
