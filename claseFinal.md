@@ -46,7 +46,6 @@ Mi responsabilidad principal dentro del proyecto fue el desarrollo del módulo d
 * Realización de un **Fork** del repositorio principal.
 * Desarrollo de la interfaz de **Login**.
 * Implementación de la validación de credenciales.
-* Conexión con la base de datos para verificar usuarios registrados.
 * Manejo de errores y mensajes de autenticación.
 * Pruebas funcionales del sistema de acceso.
 * Integración de cambios mediante **Pull Request**.
@@ -69,16 +68,6 @@ Mi responsabilidad principal dentro del proyecto fue el desarrollo del módulo d
 
 ---
 
-## 📝 Commits Realizados
-
-```bash
-git commit -m "Creación del login"
-git commit -m "Diseño de Home_page"
-git commit -m "Apartado de contactos"
-git commit -m "Agregado de estilos"
-```
-
----
 
 ## 👥 Integrantes del Equipo
 
