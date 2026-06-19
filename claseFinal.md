@@ -19,8 +19,6 @@ El sistema ofrece funcionalidades como:
 * HTML
 * CSS
 * JavaScript
-* Framework de desarrollo web
-* Base de datos (MySQL, PostgreSQL o MongoDB)
 * Git y GitHub para control de versiones y trabajo colaborativo
 
 ---
